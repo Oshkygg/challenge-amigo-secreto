@@ -1,13 +1,12 @@
-// El principal objetivo de este desafío es fortalecer tus habilidades en lógica de programación. Aquí deberás desarrollar la lógica para resolver el problema.
+// app.js
 
-document.addEventListener('DOMContentLoaded', () => { //Aseguramos que el código se ejecute cuando el HTML esté cargado
+document.addEventListener('DOMContentLoaded', () => { // Aseguramos que el código se ejecute cuando el HTML esté cargado
 
+    // Capturar elementos del HTML
+    const inputNombreAmigo = document.querySelector('.input-name'); // Campo de texto para el nombre
+    const botonAnadir = document.querySelector('.button-add');    // Botón "Añadir"
+    const listaDeAmigosUL = document.querySelector('#listaAmigos'); // Lista <ul> donde se mostrarán los nombres
 
-// Capturar elementos del HTML 
-const inputNomnreAmigo = document.querySelector('.input-name'); // Usando la clase 'input-name'
-const botonAnadir = document.querySelector('.button-add'); // Usando la clase 'button-add'
-const listaDeAmigosUL = document.querySelector('#listaAmigos'); // Usando el ID 'listaAmigos'
-
-// ... (Aquí irán las demás funciones y lógica que iremos agregando) ...
+    // ... (Aquí iremos agregando la lógica para "Agregar nombres" y "Sortear", etc.) ...
 
 });
